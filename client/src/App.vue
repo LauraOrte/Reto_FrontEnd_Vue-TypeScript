@@ -1,9 +1,16 @@
 <script setup lang="ts">
 
+import { defineComponent } from 'vue';
+
+
+
+
 </script>
 
 <template>
-  <h1>RETO FRONTEND THE SOLVE X</h1>
+  <router-view>
+    
+  </router-view>
 </template>
 
 <style>
