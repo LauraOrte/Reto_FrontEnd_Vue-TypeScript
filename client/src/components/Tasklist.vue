@@ -1,6 +1,8 @@
 <template>
     <ul>
-        <li v-for="(task, index) in tasks" :key="index">
+        <li v-for="(task, index) in tasks" 
+        :key="index" 
+        @click= "this.$router.push('/tasks/${task._id}')">
             {{ task.title }}
 
         </li>
