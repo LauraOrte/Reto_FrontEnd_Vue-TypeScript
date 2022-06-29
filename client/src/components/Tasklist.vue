@@ -2,7 +2,7 @@
     <ul>
         <li v-for="(task, index) in tasks" 
         :key="index" 
-        @click= "this.$router.push('/tasks/${task._id}')">
+        @click= "this.$router.push(`/tasks/${task.id}`)">
             {{ task.title }}
 
         </li>
