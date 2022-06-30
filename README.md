@@ -33,11 +33,11 @@ Página inicial:
 
 Página para crear tareas:
 ```
-/tasks/new
+'/tasks/new'
 ```
 
 Página para actualizar y eliminar tarea:
 ```
-/tasks/:id
+'/tasks/:id'
 ```
 
