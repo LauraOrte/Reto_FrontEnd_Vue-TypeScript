@@ -1,11 +1,11 @@
 {
-  "compilerOptions": {
-    "composite": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "angularCompilerOptions": {
-      "strictNullChecks": false,
-    }
-  },
-  "include": ["vite.config.ts"]
+    "compilerOptions": {
+      "composite": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "angularCompilerOptions": {
+        "strictNullChecks": false,
+      }
+    },
+    "include": ["vite.config.ts"]
 }
