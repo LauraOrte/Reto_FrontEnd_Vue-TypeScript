@@ -24,6 +24,6 @@ const routes: RouteRecordRaw[] =[
 const router = createRouter({
     history: createWebHistory(),
     routes
-})
+});
 
-export { router }
+export default router;
