@@ -15,7 +15,7 @@ Para que el proyecto funcione correctamente, se recomienda tener una serie de pr
 
 Recuerda ejecutar el siguiente comando en la terminal para instalar las dependencias y que todo funcione correctamente:
 ```
-npm create vite
+npm install
 ```
 # Comandos
 
